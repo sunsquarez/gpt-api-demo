@@ -1,17 +1,21 @@
 .App {
-  margin: 2rem 0;
+  margin: 4rem 0;
 }
 
 section:not(:first-child) {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .MuiInputBase-root {
-  margin-bottom: 0.5rem !important;
+  margin-bottom: 1rem !important;
 }
 
 .MuiCardContent-root {
   padding: 2rem 1rem !important;
+}
+
+.MuiButton-containedPrimary {
+  margin-top: .5rem !important;
 }
 
 .error-message {
