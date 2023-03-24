@@ -6,6 +6,11 @@ section:not(:first-child) {
   margin-top: 2rem;
 }
 
+section .MuiFormControl-root:first-child {
+  display: flex;
+  flex-direction: row;
+}
+
 .MuiInputBase-root {
   margin-bottom: 1rem !important;
 }
